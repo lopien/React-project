@@ -1,0 +1,21 @@
+
+.news {
+  margin-left: 278px;
+  padding: 20px 30px 20px 30px;
+}
+
+.news-block {
+  padding-bottom: 20px;
+}
+
+.news-img {
+  width: 150px;
+  float: left;
+  padding-right: 10px;
+}
+@media (max-width:900px) {
+  .news {
+    margin-left: 0px;
+    padding: 70px 30px 20px 30px;
+  }
+}
