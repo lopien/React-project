@@ -12,15 +12,12 @@ class App extends React.Component{
   render(){ 
     return (
     <BrowserRouter>
-      <Route exact path='/'>
-        <Index/>
+      <Route exact path='/' component={Index}/>
+      <Route 
+        path='/main'
+        render={() => <Main/>}>
       </Route>
-      <Route path='/main'>
-        <Main/>
-      </Route>
-      <Route path='/news'>
-        <News/>
-      </Route>
+      <Route path='/news' component={News}/>
     </BrowserRouter>
     );
   }

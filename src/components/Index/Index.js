@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '../../logo.png';
 import { Link } from "react-router-dom";
 // import { useHistory } from "react-router-dom"; 
 import OpenModal from './script.js';
@@ -14,7 +13,7 @@ const Index = () => {
     <>
       <header>
         <div className="main-bg">
-          <img className="main-logo" src={logo} alt="Logo"/>
+          <img className="main-logo" src='img/logo.png' alt="Logo"/>
           <button onClick={OpenModal} className="btn main-registration">Регистрация</button>
           <button onClick={OpenModal} className="btn main-login">Войти</button>
           <div className="main-title">

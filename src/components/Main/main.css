@@ -375,7 +375,8 @@
 
 @media (max-width:900px) {
   .main-info {
-    margin-left: 10%;
+    margin-top: 50px;
+    margin-left: 5%;
     width: 83%;
   }
 

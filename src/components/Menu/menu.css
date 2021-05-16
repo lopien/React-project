@@ -66,7 +66,7 @@
 
 .navbar_item {
   display: block;
-  width: 170px;
+  width: 200px;
   text-decoration: none;
   color: #fff;
   font-size: 16px;
@@ -87,164 +87,16 @@
   z-index: 11;
 }
 
-.navbar_news::before {
-  width: 16px;
-  margin-right: 10px;
+.navbar_link {
+  margin-right: 12px;
   vertical-align: middle;
-  content: url('../../img/news.svg');
-  float: left;
+  margin-top: -5px;
 }
 
-.navbar_user::before {
-  width: 16px;
-  content: url('../../img/user.svg');
+.navbar_news {
+  margin-right: 7px;
   vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_information::before {
-  width: 16px;
-  content: url('../../img/information.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_plan::before {
-  width: 16px;
-  content: url('../../img/plan.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_grants::before {
-  width: 16px;
-  content: url('../../img/grants.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_rating::before {
-  width: 16px;
-  content: url('../../img/rating.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_schedule::before {
-  width: 16px;
-  content: url('../../img/schedule.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_appraisals::before {
-  width: 16px;
-  content: url('../../img/appraisals.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_questioning::before {
-  width: 16px;
-  content: url('../../img/questioning.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_works::before {
-  width: 16px;
-  content: url('../../img/works.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_publications::before {
-  width: 16px;
-  content: url('../../img/publications.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_practices::before {
-  width: 16px;
-  content: url('../../img/practices.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_educational::before {
-  width: 16px;
-  content: url('../../img/educational.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_educational::before {
-  width: 16px;
-  content: url('../../img/educational.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_faq::before {
-  width: 16px;
-  content: url('../../img/FAQ.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_help::before {
-  width: 16px;
-  content: url('../../img/help.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_subscription::before {
-  width: 16px;
-  content: url('../../img/subscription.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_requirements::before {
-  width: 16px;
-  content: url('../../img/requirements.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_ebs::before {
-  width: 16px;
-  content: url('../../img/ebs.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
-}
-
-.navbar_catalog::before {
-  width: 16px;
-  content: url('../../img/catalog.svg');
-  vertical-align: middle;
-  margin-right: 10px;
-  float: left;
+  margin-top: -5px;
 }
 
 @media (max-width:900px) {
