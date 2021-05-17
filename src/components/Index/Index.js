@@ -1,14 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import { useHistory } from "react-router-dom"; 
+import { useHistory } from "react-router-dom";
 import OpenModal from './script.js';
 import "./index.css";
 
-// const Form = () => {
-//   return <Link to="/about"></Link>
-// }
 
 const Index = () => {
+  let history = useHistory();
+
+  const Form = () => {
+    history.push("/main");
+  }
+
   return (
     <>
       <header>
@@ -26,10 +28,10 @@ const Index = () => {
           <div className="modal-bg"></div>
           <div className="modal-content">
             <h3 className="modal-title">Здравствуйте!<br/>Чтобы войти в систему введите логин и пароль</h3>
-            <form className="modal-form">
+            <form className="modal-form" onSubmit={Form}>
               <input className="modal-input" type="text" placeholder="Логин" required/>
               <input className="modal-input" type="password" placeholder="Пароль" required/>
-              <Link to='/main'><button type="submit" className="modal-btn" >Вход</button></Link>
+              <input type="submit" className="modal-btn" value='Вход'/>
             </form>
           </div>
         </div>
