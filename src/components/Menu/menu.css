@@ -18,7 +18,7 @@
   z-index: 4;
   height: auto;
   width: 50px;
-  background-color: #244BC5;
+  background-color: #21C0B6;
   border-radius: 10px;
   position: absolute;
   padding: 2px 1px 1px 1px;
@@ -46,7 +46,7 @@
   padding: 30px 10px 0 38px;
   width: 230px;
   height: 100vh;
-  background-color: #244BC5;
+  background-color: #21C0B6;
 }
 
 .navbar::-webkit-scrollbar {
@@ -54,7 +54,9 @@
 }
 
 .active-link{
-  text-decoration: underline !important;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 39px;
+  margin-left: -38px;
 }
 
 .navbar_input {
@@ -70,7 +72,9 @@
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   /* vertical-align: center; */
 }
 
@@ -106,11 +110,6 @@
     /* transition: 0.5s; */
   }
 
-  .navbar-btn {
-    display: block;
-    top: 15px;
-    left: 28px;
-  }
 }
 
 @media (max-width:600px) {

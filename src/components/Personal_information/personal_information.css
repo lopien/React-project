@@ -1,0 +1,90 @@
+.personal_information {
+  padding: 20px 20px 20px 298px;
+  width: 100%;
+  min-width: 800px;
+}
+
+.personal_information-info {
+  overflow: auto;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  padding: 10px 0px;
+  margin-bottom: 6px;
+  margin-left: 2%;
+  width: 96%;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width:900px) {
+  .personal_information {
+    margin-left: 0px;
+    padding: 20px 30px 20px 30px;
+    min-width: 600px;
+  }
+}
+
+@media (max-width:600px) {
+  .personal_information {
+    padding: 0px 10px 20px 10px;
+    min-width: 300px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+/* границы ячеек первого ряда таблицы */
+.th{
+  text-align: right;
+}
+
+th {
+  padding: 10px 15px;
+  width: 30%;
+  border: 1px solid #C4C4C4;
+  border-width: 1px 1px 1px 0px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+caption {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 10px;
+}
+
+/* границы ячеек тела таблицы */
+td {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  padding: 10px 15px;
+  width: 70%;
+  border: 1px solid #C4C4C4;
+  border-width: 1px 0px 1px 0px;
+}
+
+.last-child {
+  border-width: 1px 0px 1px 0px;
+}
+
+.warning {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  padding-left: 30px;
+}

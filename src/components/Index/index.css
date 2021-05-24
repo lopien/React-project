@@ -12,7 +12,8 @@
   /* Opera 9.6+ */
   background-size: 100%;
   /* Современные браузеры */
-  background-image: url('../../img/bg.jpg');
+  background-image: url('../../img/bg.svg');
+  background-color: #21C0B6;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -84,8 +85,7 @@
   text-align: center;
   height: 400px;
   width: 600px;
-  background: linear-gradient(270.2deg, #264ECA 2.18%, rgba(255, 255, 255, 0) 69.91%),
-    #2148C0;
+  background: linear-gradient(270.2deg, #21C0B6 2.18%, rgba(255, 255, 255, 0.84), #21C0B6 84.24%);
   position: absolute;
   top: 50%;
   left: 50%;

@@ -1,0 +1,185 @@
+.main-block {
+  padding: 20px 20px 20px 298px;
+  width: 100%;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* навбар  */
+.navbar-btn {
+  outline: none;
+  border: none;
+  top: 10px;
+  left: 30px;
+  display: none;
+  z-index: 4;
+  height: auto;
+  width: 50px;
+  background-color: #21C0B6;
+  border-radius: 10px;
+  position: absolute;
+  padding: 2px 1px 1px 1px;
+  cursor: pointer;
+}
+
+.btn-line {
+  vertical-align: middle;
+  height: 3px;
+  width: 60%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 35px;
+  margin-left: 2%;
+  width: 92%;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-student {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-student-name {
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.main-week {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-week-number {
+  font-size: 18px;
+}
+
+.main-setting {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.main-settings {
+  cursor: pointer;
+  padding-left: 12px;
+  margin-right: 12px;
+}
+
+.modal-message {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.modal-setting {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.modal-bg1,
+.modal-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+}
+
+.modal-message-content,
+.modal-setting-content {
+  z-index: 50;
+  text-align: center;
+  height: 80%;
+  width: 70%;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+
+.modal-setting-title,
+.modal-message-title {
+  color: #000;
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+@media (max-width:900px) {
+  .main-info {
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 83%;
+  }
+
+  .main-block {
+    padding: 20px;
+    transition: 2s;
+  }
+  .navbar-btn {
+    display: block;
+    top: 15px;
+    left: 28px;
+  }
+}
+
+@media (max-width:600px) {
+
+  .main-info {
+    margin-left: 5%;
+    width: 90%;
+    padding: 5px;
+  }
+
+  .main-block {
+    padding: 0;
+  }
+
+  .main-info {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .main-student,
+  .main-week,
+  .main-setting {
+    padding-bottom: 15px;
+  }
+}

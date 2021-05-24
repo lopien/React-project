@@ -1,4 +1,3 @@
-
 .news {
   margin-left: 278px;
   padding: 20px 30px 20px 30px;
@@ -16,6 +15,11 @@
 @media (max-width:900px) {
   .news {
     margin-left: 0px;
-    padding: 70px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
+  }
+}
+@media (max-width:600px) {
+  .news {
+    padding: 00px 10px 20px 10px;
   }
 }

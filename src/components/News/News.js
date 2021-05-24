@@ -1,18 +1,16 @@
 import React from 'react';
 import './news.css';
 import Menu from '../Menu/Menu';
-import {ShowMenu} from "../showMenu.js";
+import Header from '../Header/Header';
+// import { ShowMenu } from "../Menu/showMenu";
 
 const News = () => {
   return(
     <>
       <Menu/>
+      
       <div className="news">
-        <button onClick={ShowMenu} className="btn navbar-btn" >
-          <div className="btn-line"></div>
-          <div className="btn-line"></div>
-          <div className="btn-line"></div>
-        </button>
+        <Header/>
 
         <div className="news-block">
           <img className="news-img" src="img/1.jpg" alt=""/>

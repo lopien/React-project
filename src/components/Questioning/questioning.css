@@ -1,0 +1,60 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* границы ячеек первого ряда таблицы */
+th {
+  text-align: center;
+  padding: 10px 15px;
+  width: 30%;
+  border: 1px solid #C4C4C4;
+  border-width: 1px 1px 1px 0px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+caption {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 10px;
+}
+
+/* границы ячеек тела таблицы */
+td {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 20px 15px;
+  border: 1px solid #C4C4C4;
+  border-width: 1px 1px 1px 0px;
+}
+
+.last-child {
+  border-width: 1px 0px 1px 1px;
+}
+
+.questioning {
+  border-radius: 20px;
+  padding: 30px 0px;
+  margin-bottom: 6px;
+  margin-left: 2%;
+  width: 96%;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.warning {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  padding-left: 30px;
+}

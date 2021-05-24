@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {HideMenu} from "../showMenu.js";
+import {HideMenu} from "./showMenu.js";
 import './menu.css';
 
 const Menu = () => (
@@ -12,46 +12,46 @@ const Menu = () => (
           <use xlinkHref="sprite.svg#news"></use>
         </svg>
         Новости</NavLink>
-      <NavLink to="/main" expect="true" activeClassName="active-link" className="navbar_item">
+      <NavLink to="/personal_information" expect="true" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#user"></use>
         </svg>
         Личные сведения</NavLink>
-      <a href="/" className="navbar_item">
+      <NavLink to="/general_information" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#information"></use>
         </svg>
-        Общие сведения</a>
-      <a href="/" className="navbar_item">
+        Общие сведения</NavLink>
+      <NavLink to="/plan" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#plan"></use>
         </svg>
-        Учебный план</a>
-      <a href="/" className="navbar_item">
+        Учебный план</NavLink>
+      <NavLink to="/grants" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#grants"></use>
         </svg>
-        Стипендия</a>
-      <a href="/" className="navbar_item">
+        Стипендия</NavLink>
+      <NavLink to="/rating" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#rating"></use>
         </svg>
-        Рейтинг</a>
-      <a href="/" className="navbar_item">
+        Рейтинг</NavLink>
+      <NavLink to="/schedule" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#schedule"></use>
         </svg>
-        Расписание</a>
-      <a href="/" className="navbar_item">
+        Расписание</NavLink>
+      <NavLink to="/appraisals" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#appraisals"></use>
         </svg>
-        Оценки</a>
-      <a href="/" className="navbar_item">
+        Оценки</NavLink>
+      <NavLink to="/questioning" activeClassName="active-link" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#questioning"></use>
         </svg>
-        Анкетирование</a>
+        Анкетирование</NavLink>
       <a href="/" className="navbar_item">
         <svg width="16" height="17" className="navbar_link">
           <use xlinkHref="sprite.svg#works"></use>
