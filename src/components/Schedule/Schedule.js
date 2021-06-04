@@ -7,8 +7,9 @@ const Schedule = () => {
   return(
     <>
       <Menu/>
-      <div className="personal_information">
-        <Header/>
+      <Header/>
+      <div className="shedule">
+        
         <div className="semesters">
           <span className="semesters_title">Семестры:</span>
           <a className="semester" href="/"><img src="img/numbers/1.svg" alt=""/></a>
@@ -21,7 +22,7 @@ const Schedule = () => {
           <a className="semester" href="/"><img src="img/numbers/8.svg" alt=""/></a>
         </div>
         
-        <div className="personal_information-info">
+        <div className="shedule-info">
 
           <table>
             <caption><strong>Расписсание на 8 семестр</strong></caption>
@@ -34,7 +35,7 @@ const Schedule = () => {
                 <th>Четверг</th>
                 <th>Пятница</th>
                 <th>Суббота</th>
-                <th className="last-child">Пара</th>
+                <th className="shedule-last-child">Пара</th>
               </tr>
               <tr>
                 <td>I: 8.00-9.30</td>
@@ -44,7 +45,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">I: 8.00-9.30</td>
+                <td className="shedule-last-child">I: 8.00-9.30</td>
               </tr>
               <tr>
                 <td>II: 9.40-11.10</td>
@@ -54,7 +55,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">II: 9.40-11.10</td>
+                <td className="shedule-last-child">II: 9.40-11.10</td>
               </tr>
               <tr>
                 <td>III: 11.40-13.10</td>
@@ -64,7 +65,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">III: 11.40-13.10</td>
+                <td className="shedule-last-child">III: 11.40-13.10</td>
               </tr>
               <tr>
                 <td>IV: 13.20-14.50</td>
@@ -74,7 +75,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">IV: 13.20-14.50	</td>
+                <td className="shedule-last-child">IV: 13.20-14.50	</td>
               </tr>
               <tr>
                 <td>V: 15.10-16.40</td>
@@ -84,7 +85,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">V: 15.10-16.40</td>
+                <td className="shedule-last-child">V: 15.10-16.40</td>
               </tr>
               <tr>
                 <td>VI: 16.50-18.20</td>
@@ -94,7 +95,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">VI: 16.50-18.20</td>
+                <td className="shedule-last-child">VI: 16.50-18.20</td>
               </tr>
               <tr>
                 <td>VII: 18.30-20.00</td>
@@ -104,7 +105,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">VII: 18.30-20.00</td>
+                <td className="shedule-last-child">VII: 18.30-20.00</td>
               </tr>
               <tr>
                 <td>VIII: 20.10-21.40</td>
@@ -114,7 +115,7 @@ const Schedule = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child">VIII: 20.10-21.40</td>
+                <td className="shedule-last-child">VIII: 20.10-21.40</td>
               </tr>
             </tbody>
           </table>

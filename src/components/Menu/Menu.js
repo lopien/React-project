@@ -103,7 +103,9 @@ const Menu = () => (
         </svg>
         Электорнный каталог</a>
     </nav>
-    <button onClick={HideMenu} className='btn'><div className="layout-bg"></div></button>
+    <button onClick={HideMenu} className='btn'>
+      <div className="layout-bg"></div>
+    </button>
   </div>
 );
 

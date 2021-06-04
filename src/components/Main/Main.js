@@ -45,9 +45,9 @@ const Main = () => {
   return(
   <>
     <Menu/>
+    <Header/>
     <div className="main-block" >
-      <Header/>
-
+      
       <div className="main-block-row">
 
         <div className="main-tasks">

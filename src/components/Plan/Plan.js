@@ -7,9 +7,9 @@ const Plan = () => {
   return(
     <>
       <Menu/>
-      <div className="personal_information">
-        <Header/>
-        <div className="general_information-info">
+      <Header/>
+      <div className="plan">
+        <div className="plan-info">
           <table>
             <caption><strong>Учебный план за 8 семестр</strong></caption>
             <tbody>
@@ -20,133 +20,133 @@ const Plan = () => {
                 <th>Часы (Вс/Ауд)</th>
                 <th>Материалы</th>
                 <th>Литература</th>
-                <th className="last-child">Преподаватель</th>
+                <th className="plan-last-child">Преподаватель</th>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Высокопроизводительные вычисления</td>
-                <td>72/50</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Высокопроизводительные вычисления</td>
+                <td className="td">72/50</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Инструментальные средства разработки автоматизированных систем</td>
-                <td>108/60</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Инструментальные средства разработки автоматизированных систем</td>
+                <td className="td">108/60</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Методы и модели теории графов и сетевого моделирования</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td className="last-child"> </td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Методы и модели теории графов и сетевого моделирования</td>
+                <td className="td"> </td>
+                <td className="td"> </td>
+                <td className="td"> </td>
+                <td className="plan-last-child"> </td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Модели и методы разработки программного обеспечения VI</td>
-                <td>108/60</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child"> </td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Модели и методы разработки программного обеспечения VI</td>
+                <td className="td">108/60</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child"> </td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Обучающие системы</td>
-                <td>72/50</td>
-                <td> </td>
-                <td> </td>
-                <td className="last-child"> </td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Обучающие системы</td>
+                <td className="td">72/50</td>
+                <td className="td"> </td>
+                <td className="td"> </td>
+                <td className="plan-last-child"> </td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Оптимизация на сетях и графах</td>
-                <td> </td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Оптимизация на сетях и графах</td>
+                <td className="td"> </td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>3D анимация</td>
-                <td>108/60</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">3D анимация</td>
+                <td className="td">108/60</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Философия</td>
-                <td>72/40</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Философия</td>
+                <td className="td">72/40</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>ЭВМ и периферийные устройства</td>
-                <td>72/20</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">ЭВМ и периферийные устройства</td>
+                <td className="td">72/20</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Экология</td>
-                <td>108/84</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Экология</td>
+                <td className="td">108/84</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Методы и средства проектирования информационных систем и технологий	</td>
-                <td>108/60</td>
-                <td>Открыть</td>
-                <td>Посмотреть</td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Методы и средства проектирования информационных систем и технологий	</td>
+                <td className="td">108/60</td>
+                <td className="td">Открыть</td>
+                <td className="td">Посмотреть</td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Производственная практика, преддипломная</td>
-                <td>108/</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Производственная практика, преддипломная</td>
+                <td className="td">108/</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Выпускная квалификационная работа</td>
-                <td>216/</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Выпускная квалификационная работа</td>
+                <td className="td">216/</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
               <tr>
-                <td>Б1.В</td>
-                <td>Зач</td>
-                <td>Государственный экзамен</td>
-                <td>108/</td>
-                <td>Открыть</td>
-                <td> </td>
-                <td className="last-child">Подробно</td>
+                <td className="td">Б1.В</td>
+                <td className="td">Зач</td>
+                <td className="td">Государственный экзамен</td>
+                <td className="td">108/</td>
+                <td className="td">Открыть</td>
+                <td className="td"> </td>
+                <td className="plan-last-child">Подробно</td>
               </tr>
             </tbody>
           </table>

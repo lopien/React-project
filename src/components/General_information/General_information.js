@@ -7,39 +7,40 @@ const General_information = () => {
   return(
     <>
       <Menu/>
-      <div className="personal_information">
-        <Header/>
+      <Header/>
+      <div className="general_information">
+        
         <div className="general_information-info">
           <table>
             <caption><strong>Направление подготовки высшего образования - бакалавриат: 09.03.01 Информатика и вычислительная техника</strong></caption>
             <tbody>
               <tr>
-                <th>ФИО</th>
-                <td className="last-child">Хафизова Эльвира Айдаровна</td>
+                <th className="th">ФИО</th>
+                <td className="general-last-child">Хафизова Эльвира Айдаровна</td>
               </tr>
               <tr>
-                <th>Факультет</th>
-                <td className="last-child">Институт математики, информационных технологий и физики</td>
+                <th className="th">Факультет</th>
+                <td className="general-last-child">Институт математики, информационных технологий и физики</td>
               </tr>
               <tr>
-                <th>Форма обучения</th>
-                <td className="last-child">Очная</td>
+                <th className="th">Форма обучения</th>
+                <td className="general-last-child">Очная</td>
               </tr>
               <tr>
-                <th>Квалификация</th>
-                <td className="last-child">Бакалавр</td>
+                <th className="th">Квалификация</th>
+                <td className="general-last-child">Бакалавр</td>
               </tr>
               <tr>
-                <th>Группа</th>
-                <td className="last-child">ОАБ-09.03.01-41</td>
+                <th className="th">Группа</th>
+                <td className="general-last-child">ОАБ-09.03.01-41</td>
               </tr>
               <tr>
-                <th>Номер зачетки</th>
-                <td className="last-child">7721</td>
+                <th className="th">Номер зачетки</th>
+                <td className="general-last-child">7721</td>
               </tr>
               <tr>
-                <th>Профиль/специализация	</th>
-                <td className="last-child">09.03.01.01 Вычислительные машины, комплексы, системы и сети</td>
+                <th className="th">Профиль/специализация	</th>
+                <td className="general-last-child">09.03.01.01 Вычислительные машины, комплексы, системы и сети</td>
               </tr>
             </tbody>
           </table>

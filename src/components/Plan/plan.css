@@ -1,55 +1,9 @@
-table {
-  border-collapse: collapse;
-  width: 100%;
+.plan {
+  padding: 20px 20px 20px 298px;
+  min-width: 602px;
 }
 
-/* границы ячеек первого ряда таблицы */
-th {
-  width: auto;
-  text-align: center;
-  padding: 10px 15px;
-  /* width: 30%; */
-  border: 1px solid #C4C4C4;
-  border-width: 1px 1px 1px 0px;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-}
-
-caption {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  padding: 10px;
-}
-
-tr {
-  width: 100%;
-}
-
-/* границы ячеек тела таблицы */
-td {
-  width: auto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-
-  padding: 10px 15px;
-  /* width: 70%; */
-  border: 1px solid #C4C4C4;
-  border-width: 1px 1px 1px 0px;
-}
-.general_information {
-  margin-left: 278px;
-  padding: 20px 30px 20px 30px;
-  width: 100%;
-}
-
-.general_information-info {
+.plan-info {
   overflow: auto;
   height: auto;
   display: block;
@@ -60,27 +14,11 @@ td {
   width: 96%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.last-child {
+.plan-last-child {
   border-width: 1px 0px 1px 1px;
 }
-
-.plan {
-  border-radius: 20px;
-  padding: 7px 0px 20px 0px;
-  margin-bottom: 6px;
-  margin-left: 2%;
-  width: 96%;
-  height: auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  /* overflow: auto; */
-}
-
-.warning {
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 23px;
-  color: #000000;
-  padding-left: 30px;
+.td{
+  border-width: 1px 1px 1px 0px;
 }
 
 .semester {

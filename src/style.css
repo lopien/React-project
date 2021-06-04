@@ -24,7 +24,46 @@ body {
   display: flex;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding: 10px 15px;
+  /* width: 30%; */
+  border: 1px solid #C4C4C4;
+  border-width: 1px 1px 1px 0px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+caption {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 10px;
+}
+
+/* границы ячеек тела таблицы */
+td {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  padding: 10px 15px;
+  /* width: 70%; */
+  border: 1px solid #C4C4C4;
+  border-width: 1px 1px 1px 0px;
+}
+
 #root{
   display: flex;
+  flex-direction: column;
   width: 100%;
 }

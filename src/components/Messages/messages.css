@@ -1,0 +1,235 @@
+.messages {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px 20px 298px;
+}
+
+.messages-name {
+  border-radius: 20px;
+  padding: 17px 0px 20px 20px;
+  margin-bottom: 6px;
+  margin-left: 2%;
+  width: 300px;
+  height: 70vh;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.messages-search::placeholder {
+  font-size: 16px;
+}
+
+.messages-search {
+  font-size: 16px;
+  background-image: url("../../img/search.svg");
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  padding-left: 50px;
+  background-color: rgba(229, 229, 229, 0.66);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 67%;
+  height: 40px;
+}
+
+.message-select {
+  display: block;
+  padding: 20px 20px 20px 0px;
+}
+
+#message-line {
+  border: 1px solid #000;
+}
+
+.message-dialog,
+.message-group {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.messages-message {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-radius: 20px;
+  padding: 10px 17px 20px 17px;
+  margin-bottom: 6px;
+  margin-left: 1%;
+  width: 700px;
+  height: 70vh;
+  min-width: 400px;
+  max-width: 600px;
+  background-color: #E0DCDC;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.message-file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  height: 62px;
+  width: 62px;
+}
+
+.message-file-button {
+  margin-bottom: -4px;
+}
+
+.message-file-button img {
+  padding: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.message-input {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #C4C4C4;
+  border-width: 0px 0px 0px 1px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.message-input-line {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+}
+
+.message-send img {
+  cursor: pointer;
+}
+
+.message-send {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 0px 10px 10px 0px;
+  height: 62px;
+}
+
+.messages-dialog::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages-dialog::-webkit-scrollbar-track {
+  background-color: #21C0B6;
+  border-radius: 10px;
+}
+
+.messages-dialog::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #008b82;
+}
+
+.messages-dialog {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.message-block{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.message-user-img {
+  width: 50px;
+  height: 50px;
+}
+
+.message-user-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.message-sending {
+  display: flex;
+  flex-direction: row;
+}
+
+.message-user-dialog {
+  overflow-wrap: normal;
+  word-wrap: break-word;
+  word-break: normal;
+  line-break: auto;
+  hyphens: manual;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: block;
+}
+
+.messages-dialog-column {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  width: 88%;
+}
+
+@media (max-width:900px) {
+  .messages {
+    min-width: 600px;
+    padding: 20px 30px 20px 30px;
+  }
+  .messages-name{
+    width: 200px;
+  }
+  .messages-message{
+    width: 65%;
+  }
+  .messages-search{
+    margin-left: 0;
+  }
+}
+
+@media (max-width:600px) {
+  .messages {
+    flex-direction: column;
+    padding: 0px 10px 20px 10px;
+    min-width: 300px;
+  }
+  .messages-message{
+    width: 80%;
+  }
+  .messages-name {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    overflow: auto;
+    margin-bottom: 15px;
+  }
+  .messages-name::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .messages-name::-webkit-scrollbar-track {
+    background-color: #21C0B6;
+    border-radius: 10px;
+  }
+
+  .messages-name::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #008b82;
+  }
+  .messages-message {
+    width: 80%;
+    height: 400px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .messages-dialog-column{
+    width: 80%;
+  }
+}

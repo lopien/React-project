@@ -1,18 +1,3 @@
-function ModalMessage() {
-  let modalMessage = document.querySelector(".modal-message");
-  let modalBg = document.querySelector(".modal-bg");
-  let body = document.querySelector("body");
-
-  modalMessage.style.display = "block";
-  body.style.overflow = "hidden";
-
-  modalBg.addEventListener('click', (event) => {
-    event.preventDefault();
-    modalMessage.style.display = "none";
-    body.style.overflow = "auto";
-  });
-}
-
 function ModalSettings() {
   let modalSetting = document.querySelector(".modal-setting");
   let modalBg1 = document.querySelector(".modal-bg1");
@@ -28,4 +13,4 @@ function ModalSettings() {
   });
 }
 
-export {ModalMessage, ModalSettings};
+export {ModalSettings};

@@ -1,58 +1,27 @@
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
 /* границы ячеек первого ряда таблицы */
-.padding{
-  height: 20px;
-}
-th {
-  width: auto;
-  text-align: center;
-  
-  /* width: 30%; */
-  border: 1px solid #C4C4C4;
-  border-width: 1px 1px 1px 0px;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-}
-
-caption {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  padding: 10px;
-}
-
-tr {
-  width: 100%;
-}
-
-/* границы ячеек тела таблицы */
-td {
-  width: auto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-
-  padding: 10px 15px;
-  /* width: 70%; */
-  border: 1px solid #C4C4C4;
-  border-width: 1px 1px 1px 0px;
-}
 
 .last-child {
   border-width: 1px 0px 1px 1px;
 }
 
-.appraisal {
+.appraisals {
+  padding: 20px 30px 20px 298px;
+  min-width: 602px;
+}
 
+.appraisals-info {
+  overflow: auto;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  padding: 10px 0px;
+  margin-bottom: 6px;
+  margin-left: 2%;
+  width: 96%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.appraisal {
   border-radius: 20px;
   padding: 7px 0px 20px 0px;
   margin-bottom: 25px;
@@ -117,4 +86,19 @@ td {
   margin-left: 3%;
   padding-top: 12px;
   padding-right: 10px;
+}
+
+
+@media (max-width:900px) {
+  .appraisals {
+    min-width: 600px;
+    padding: 0px 30px 20px 30px;
+  }
+}
+
+@media (max-width:600px) {
+  .appraisals {
+    padding: 0px 10px 20px 10px;
+    min-width: 300px;
+  }
 }

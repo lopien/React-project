@@ -2,15 +2,13 @@ import React from 'react';
 import './news.css';
 import Menu from '../Menu/Menu';
 import Header from '../Header/Header';
-// import { ShowMenu } from "../Menu/showMenu";
 
 const News = () => {
   return(
     <>
       <Menu/>
-      
+      <Header/>
       <div className="news">
-        <Header/>
 
         <div className="news-block">
           <img className="news-img" src="img/1.jpg" alt=""/>

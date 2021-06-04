@@ -11,6 +11,7 @@ import Rating from './components/Rating/Rating';
 import Schedule from './components/Schedule/Schedule';
 import Appraisals from './components/Appraisals/Appraisals';
 import Questioning from './components/Questioning/Questioning';
+import Messages from './components/Messages/Messages';
 import  './style.css';
 
 class App extends React.Component{
@@ -28,6 +29,7 @@ class App extends React.Component{
       <Route path='/schedule' component={Schedule}/>
       <Route path='/appraisals' component={Appraisals}/>
       <Route path='/questioning' component={Questioning}/>
+      <Route path='/messages' component={Messages}/>
     </BrowserRouter>
     );
   }

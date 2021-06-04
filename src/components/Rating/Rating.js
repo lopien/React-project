@@ -7,8 +7,9 @@ const Rating = () => {
   return(
     <>
       <Menu/>
-      <div className="personal_information">
-        <Header/>
+      <Header/>
+      <div className="rating">
+        
         <div className="semesters">
           <span className="semesters_title">Семестры:</span>
           <a className="semester" href="/"><img src="img/numbers/1.svg" alt=""/></a>
@@ -21,7 +22,7 @@ const Rating = () => {
           <a className="semester" href="/"><img src="img/numbers/8.svg" alt=""/></a>
         </div>
     
-        <div className="personal_information-info">
+        <div className="rating-info">
 
           <table>
             <caption><strong>Расписсание на 8 семестр</strong></caption>
@@ -35,7 +36,7 @@ const Rating = () => {
                 <th>Экз/зач (РК4)</th>
                 <th>Сумма баллов</th>
                 <th>Место в группе</th>
-                <th className="last-child">Место по спец/напр</th>
+                <th className="rating-last-child">Место по спец/напр</th>
               </tr>
               <tr>
                 <td>Высокопроизводительные вычисления	</td>
@@ -46,7 +47,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
               <tr>
                 <td>Инструментальные средства разработки автоматизированных систем</td>
@@ -57,7 +58,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
               <tr>
                 <td>Методы и средства проектирования информационных систем и технологий</td>
@@ -68,7 +69,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
               <tr>
                 <td>Оптимизация на сетях и графах</td>
@@ -79,7 +80,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
               <tr>
                 <td>Философия</td>
@@ -90,7 +91,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
               <tr>
                 <td>ЭВМ и периферийные устройства</td>
@@ -101,7 +102,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
               <tr>
                 <td>ЭВМ и периферийные устройства</td>
@@ -112,7 +113,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
               <tr>
                 <td>3D анимация</td>
@@ -123,7 +124,7 @@ const Rating = () => {
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td className="last-child"> </td>
+                <td className="rating-last-child"> </td>
               </tr>
             </tbody>
           </table>

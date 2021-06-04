@@ -7,32 +7,33 @@ const Grants = () => {
   return(
     <>
       <Menu/>
-      <div className="personal_information">
-        <Header/>
+      <Header/>
+      <div className="grant">
+        
           <div className="grants">
     
-          <span className="grants_title">Выберите интересующий год</span>
-          <button className="active_btn grants_btn">2021</button>
-          <button className="grants_btn">2020</button>
-          <button className="grants_btn">2019</button>
-          <button className="grants_btn">2018</button>
-          <button className="grants_btn">2017</button>
+            <span className="grants_title">Выберите интересующий год</span>
+            <button className="active_btn grants_btn">2021</button>
+            <button className="grants_btn">2020</button>
+            <button className="grants_btn">2019</button>
+            <button className="grants_btn">2018</button>
+            <button className="grants_btn">2017</button>
 
-          <span className="grants_title">Выберите интересующий месяц:</span>
-          <button className="active_btn grants_btn">Янв</button>
-          <button className="grants_btn">Фев</button>
-          <button className="grants_btn">Март</button>
-          <button className="grants_btn">Апр</button>
-          <button className="grants_btn">Май</button>
-          <button className="grants_btn">Июнь</button>
-          <button className="grants_btn">Июль</button>
-          <button className="grants_btn">Авг</button>
-          <button className="grants_btn">Сент</button>
-          <button className="grants_btn">Окт</button>
-          <button className="grants_btn">Нояб</button>
-          <button className="grants_btn">Дек</button>
+            <span className="grants_title">Выберите интересующий месяц:</span>
+            <button className="active_btn grants_btn">Янв</button>
+            <button className="grants_btn">Фев</button>
+            <button className="grants_btn">Март</button>
+            <button className="grants_btn">Апр</button>
+            <button className="grants_btn">Май</button>
+            <button className="grants_btn">Июнь</button>
+            <button className="grants_btn">Июль</button>
+            <button className="grants_btn">Авг</button>
+            <button className="grants_btn">Сент</button>
+            <button className="grants_btn">Окт</button>
+            <button className="grants_btn">Нояб</button>
+            <button className="grants_btn">Дек</button>
         </div>
-        <div className="general_information-info">
+        <div className="grants-info">
           <table>
             <caption><strong>ЯНВАРЬ 2021</strong></caption>
             <tbody>

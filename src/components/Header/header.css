@@ -1,6 +1,5 @@
-.main-block {
-  padding: 20px 20px 20px 298px;
-  width: 100%;
+.header-block {
+  padding: 0px 20px 20px 298px;
 }
 
 .btn {
@@ -41,13 +40,13 @@
 }
 
 
-.main-info {
+.student-info {
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
   margin-top: 20px;
   padding: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   margin-left: 2%;
   width: 92%;
   height: auto;
@@ -61,7 +60,11 @@
   justify-content: flex-start;
 }
 
-.main-student-name {
+.main-info-link {
+  text-decoration: none;
+}
+.main-student-info {
+  color:#000;
   flex-direction: column;
   margin-left: 10px;
 }
@@ -90,15 +93,6 @@
   margin-right: 12px;
 }
 
-.modal-message {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 10;
-}
 
 .modal-setting {
   display: none;
@@ -118,7 +112,6 @@
   z-index: 11;
 }
 
-.modal-message-content,
 .modal-setting-content {
   z-index: 50;
   text-align: center;
@@ -134,8 +127,7 @@
   padding: 30px;
 }
 
-.modal-setting-title,
-.modal-message-title {
+.modal-setting-title{
   color: #000;
   font-size: 25px;
   line-height: 1.6;
@@ -143,8 +135,11 @@
 }
 
 @media (max-width:900px) {
-  .main-info {
-    margin-top: 50px;
+  .header-block {
+    padding: 0px 20px 20px 20px;
+  }
+  .student-info {
+    margin-top: 70px;
     margin-left: 5%;
     width: 83%;
   }
@@ -162,17 +157,17 @@
 
 @media (max-width:600px) {
 
-  .main-info {
-    margin-left: 5%;
+  .student-info {
+    margin-left: 3%;
     width: 90%;
-    padding: 5px;
+    padding: 10px;
   }
 
   .main-block {
     padding: 0;
   }
 
-  .main-info {
+  .student-info {
     flex-direction: column;
     margin-top: 80px;
   }
