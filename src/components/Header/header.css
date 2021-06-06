@@ -104,8 +104,8 @@
   z-index: 10;
 }
 
-.modal-bg1,
-.modal-bg {
+.modal-bg1{
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
