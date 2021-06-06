@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './news.css';
 import Menu from '../Menu/Menu';
 import Header from '../Header/Header';
