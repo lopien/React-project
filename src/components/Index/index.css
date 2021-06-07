@@ -66,18 +66,13 @@
 /*  модальное окно  */
 
 .modal {
-  display: none;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
+  display: block;
 }
 
 .modal-bg {
+  position: fixed;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  width: 100%;
-  z-index: 2;
 }
 
 .modal-content {
