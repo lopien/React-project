@@ -11,15 +11,9 @@ const Index = () => {
   }
 
   const [open, setOpen] = React.useState(false);
-
   const handleOpen = () => {
     setOpen(true);
   };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
   const handleRequestCloseFunc = () => {
     setOpen(false);
   };
@@ -39,7 +33,6 @@ const Index = () => {
         </div>
         <Modal 
           isOpen={open}
-          onClose={handleClose}
           className={{
             base: 'modal-content', 
             afterOpen: 'modal-content',

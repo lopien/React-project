@@ -93,17 +93,6 @@
   margin-right: 12px;
 }
 
-
-.modal-setting {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 10;
-}
-
 .modal-bg1{
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
