@@ -143,9 +143,7 @@ const Main = () => {
           </ul>
         </div>
       </div>
-
     </div>
-
   </>
   );
 };

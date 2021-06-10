@@ -11,6 +11,7 @@
   width: 150px;
   float: left;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 @media (max-width:900px) {
   .news {
