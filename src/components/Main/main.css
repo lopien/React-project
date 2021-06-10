@@ -310,20 +310,20 @@
 }
 
 .progressbar li.main-step-2:before,
-.progressbar li.main-step-4:before,
+.progressbar li.main-step-3:before,
+.progressbar li.main-step-5:before,
 .progressbar li.main-step-6:before,
 .progressbar li.main-step-8:before,
-.progressbar li.main-step-10:before,
-.progressbar li.main-step-12:before {
-  margin: 0 auto -33px auto;
+.progressbar li.main-step-9:before,
+.progressbar li.main-step-11:before,
+.progressbar li.main-step-12:before,
+.progressbar li.main-step-16:before {
+  margin: 0 auto -51px auto;
 }
 
 .progressbar li.main-step-14:before {
   margin: 0 auto -50px auto;
 }
-
-
-
 
 @media (max-width:900px) {
   .main-info {

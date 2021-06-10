@@ -7,20 +7,20 @@ import "./main.css";
 
 const data = {
   labels: [
-        "Отлично",
-        "Хорошо",
-        "Удовлетворительно",
+    "Отлично",
+    "Хорошо",
+    "Удовлетворительно",
+  ],
+  datasets: [
+  {
+    data: [1, 2, 1],
+    backgroundColor: [
+        "red",
+        "blue",
+        "yellow",
     ],
-    datasets: [
-        {
-            data: [1, 2, 1],
-            backgroundColor: [
-                "red",
-                "blue",
-                "yellow",
-            ],
-            borderWidth: 0
-        }]
+    borderWidth: 0
+  }]
 }
 
 const options = {
@@ -41,16 +41,13 @@ const Main = () => {
     <Menu/>
     <Header/>
     <div className="main-block" >
-      
       <div className="main-block-row">
-
         <div className="main-tasks">
           <div className="main-tast-info">
             <h3 className="main-task-title">Задачи</h3>
             <button className='btn' onClick={ShowTask}><img className="main-task-add" src="img/plus.svg" alt=""/></button>
             <button className='btn' onClick={HideTask}><img className="main-task-del" src="img/delete.svg" alt=""/></button>
           </div>
-
           <div className="task-add">
             <div className="task-add-title">
               <input className="task-date-input" type="text" placeholder="Дата"/>
@@ -62,7 +59,6 @@ const Main = () => {
               <button onClick={AddTask} className="task-accept-btn">Добавить</button>
             </div>
           </div>
-
           <div className="task">
             <div className="task-title">
               <div></div>
@@ -73,7 +69,6 @@ const Main = () => {
               <p>НАПИСАТЬ ДИПОЛМ!!!!!!!</p>
             </div>
           </div>
-
           <div className="task">
             <div className="task-title">
               <div></div>
@@ -84,7 +79,6 @@ const Main = () => {
               <p>ПИСАТЬ ДИПОЛМ!!!!!!!</p>
             </div>
           </div>
-
           <div className="task">
             <div className="task-title">
               <div></div>
@@ -92,12 +86,10 @@ const Main = () => {
               <button onClick={DeleteTask} className="btn"><img className="main-task-img" src="img/remove.svg" alt=""/></button>
             </div>
             <div className="task-text">
-              <p>ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ДИПОЛМ!!!!!!!</p>
+              <p>ПРОДОЛЖИТЬ ЕЩЕ ПИСАТЬ ПИСАТЬ ПИСАТЬ ПИСАТЬ ПИСАТЬ ПИСАТЬ ПИСАТЬ ПИСАТЬ ДИПОЛМ!!!!!!!</p>
             </div>
           </div>
-
         </div>
-
         <div className="main-progress">
           <div className="main-progress-info">
             <div></div>
@@ -109,13 +101,11 @@ const Main = () => {
               <Doughnut  data={data} options={options} />
             </div>
           </div>
-
           <div className="main-progress-rating">
             <div className="main-progress-1">
               <div className="main-progress-red"></div>
               <span>Отлично</span>
             </div>
-            
             <div className="main-progress-2">
               <div className="main-progress-blue"></div>
               <span>Хорошо</span> 
@@ -124,11 +114,9 @@ const Main = () => {
               <div className="main-progress-yellow"></div>
               <span>Удовлитворительно</span>
             </div>
-            
           </div>
         </div>
       </div>
-
       <div className="main-steps">
         <div className="container">
           <ul className="progressbar">
@@ -136,22 +124,22 @@ const Main = () => {
               <span>Поступление</span>
               </li>
             <li className="main-step-2 active">
-              <span>Step 2</span>
+              <span>Зимняя сессия</span>
               </li>
-            <li className="main-step-3 active">Step 3</li>
-            <li className="main-step-4 active">Step 4</li>
-            <li className="main-step-5 active">Step 5</li>
-            <li className="main-step-6 active">Step 6</li>
-            <li className="main-step-7 active">Step 7</li>
-            <li className="main-step-8 active">Step 8</li>
-            <li className="main-step-9 active">Step 9</li>
-            <li className="main-step-10 active">Step 10</li>
-            <li className="main-step-11 active">Step 11</li>
-            <li className="main-step-12 active">Step 12</li>
-            <li className="main-step-13 active">Step 13</li>
+            <li className="main-step-3 active">Летняя сессия</li>
+            <li className="main-step-4 active">2 курс</li>
+            <li className="main-step-5 active">Зимняя сессия</li>
+            <li className="main-step-6 active">Зимняя сессия</li>
+            <li className="main-step-7 active">3 курс</li>
+            <li className="main-step-8 active">Зимняя сессия</li>
+            <li className="main-step-9 active">Зимняя сессия</li>
+            <li className="main-step-10 active">4 курс</li>
+            <li className="main-step-11 active">Зимняя сессия</li>
+            <li className="main-step-12 active">Зимняя сессия</li>
+            <li className="main-step-13 active">Преддипломная<br/>практика</li>
             <li className="main-step-14 active">Гос Экзамены</li>
             <li className="main-step-15">Защита диплома</li>
-            <li className="main-step-16">Step 16</li>
+            <li className="main-step-16">Каникулы</li>
           </ul>
         </div>
       </div>
