@@ -2,16 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ShowMenu } from "../Menu/showMenu";
 import Modal from 'react-modal';
-
 import "./header.css";
 
 const Header = () => {
-
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => {
     setOpen(true);
   };
-  const handleRequestCloseFunc = () => {
+  const handleClose = () => {
     setOpen(false);
   };
   return(
@@ -32,12 +30,10 @@ const Header = () => {
             </div>
           </div>
         </Link>
-
         <div className="main-week">
           <p className="main-week-number">12 Неделя</p>
           <i>Числитель</i>
         </div>
-        
         <div className="main-setting">
           <Link to="/messages">
             <img className="main-settings" src="img/message.svg" alt=""/>
@@ -49,24 +45,23 @@ const Header = () => {
         </div>
       </div>
     </div>
-
     <Modal 
-          isOpen={open}
-          className={{
-            base: 'modal-setting-content', 
-            afterOpen: 'modal-setting-content',
-            beforeClose: 'modal-setting-content'
-          }}
-          overlayClassName={{
-            base: 'modal-bg', 
-            afterOpen: 'modal-bg1',
-            beforeClose: 'modal-bg1'
-          }}
-          onRequestClose = {handleRequestCloseFunc}
-          ariaHideApp={false}
-        >
-          <h3 className="modal-setting-title">Настройки</h3>
-        </Modal>
+      isOpen={open}
+      className={{
+        base: 'modal-setting-content', 
+        afterOpen: 'modal-setting-content',
+        beforeClose: 'modal-setting-content'
+      }}
+      overlayClassName={{
+        base: 'modal-bg', 
+        afterOpen: 'modal-bg1',
+        beforeClose: 'modal-bg1'
+      }}
+      onRequestClose = {handleClose}
+      ariaHideApp={false}
+    >
+      <h3 className="modal-setting-title">Настройки</h3>
+    </Modal>
   </>
   )
 };

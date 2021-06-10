@@ -25,7 +25,7 @@ const Messages = () => {
 
           <div className="messages-dialog">
 
-            <div className="message-block">            
+            <div className="message-block">
               <div className="message-user-img">
                 <img src="/img/user-photo.png" alt=""/>
               </div>

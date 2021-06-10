@@ -14,13 +14,13 @@ const Index = () => {
   const handleOpen = () => {
     setOpen(true);
   };
-  const handleRequestCloseFunc = () => {
+  const handleClose = () => {
     setOpen(false);
   };
   
   return (
     <>
-      <header>
+      <main>
         <div className="main-bg">
           <img className="main-logo" src='img/logo.png' alt="Logo"/>
           <button onClick={handleOpen} className="btn main-registration">Регистрация</button>
@@ -43,17 +43,17 @@ const Index = () => {
             afterOpen: 'modal-bg',
             beforeClose: 'modal-bg'
           }}
-          onRequestClose = {handleRequestCloseFunc}
+          onRequestClose={handleClose}
           ariaHideApp={false}
         >
-            <h3 className="modal-title">Здравствуйте!<br/>Чтобы войти в систему введите логин и пароль</h3>
-            <form className="modal-form" onSubmit={Form}>
-              <input className="modal-input" type="text" placeholder="Логин" required/>
-              <input className="modal-input" type="password" placeholder="Пароль" required/>
-              <input type="submit" className="modal-btn" value='Вход'/>
-            </form>
+          <h3 className="modal-title">Здравствуйте!<br/>Чтобы войти в систему введите логин и пароль</h3>
+          <form className="modal-form" onSubmit={Form}>
+            <input className="modal-input" type="text" placeholder="Логин" required/>
+            <input className="modal-input" type="password" placeholder="Пароль" required/>
+            <input type="submit" className="modal-btn" value='Вход'/>
+          </form>
         </Modal>
-      </header>
+      </main>
     </>
   );
 };

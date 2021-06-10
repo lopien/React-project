@@ -1,13 +1,8 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import { Doughnut } from 'react-chartjs-2';
 import { AddTask, DeleteTask, ShowTask, HideTask } from './task';
 import Menu from "../Menu/Menu";
 import Header from "../Header/Header";
-
-// import { ShowMenu } from "../Menu/showMenu";
-// import { ModalMessage, ModalSettings } from "./modal";
-
 import "./main.css";
 
 const data = {
@@ -40,7 +35,6 @@ const options = {
   }
 }
 
-
 const Main = () => {
   return(
   <>
@@ -72,7 +66,7 @@ const Main = () => {
           <div className="task">
             <div className="task-title">
               <div></div>
-              <span className="task-date">6 Апреля</span>
+              <span className="task-date">20 Апреля</span>
               <button onClick={DeleteTask} className="btn"><img className="main-task-img" src="img/remove.svg" alt=""/></button>
             </div>
             <div className="task-text">
@@ -138,8 +132,12 @@ const Main = () => {
       <div className="main-steps">
         <div className="container">
           <ul className="progressbar">
-            <li className="main-step-1 active">Поступление</li>
-            <li className="main-step-2 active">Step 2</li>
+            <li className="main-step-1 active">
+              <span>Поступление</span>
+              </li>
+            <li className="main-step-2 active">
+              <span>Step 2</span>
+              </li>
             <li className="main-step-3 active">Step 3</li>
             <li className="main-step-4 active">Step 4</li>
             <li className="main-step-5 active">Step 5</li>

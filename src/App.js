@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
+
 import Index from './components/Index/Index';
 import News from './components/News/News';
 import Main from './components/Main/Main';
@@ -12,14 +13,14 @@ import Schedule from './components/Schedule/Schedule';
 import Appraisals from './components/Appraisals/Appraisals';
 import Questioning from './components/Questioning/Questioning';
 import Messages from './components/Messages/Messages';
-import  './style.css';
+import './style.css';
 
 class App extends React.Component{
   render(){ 
     return (
     <BrowserRouter>
       <Route exact path='/' component={Index}/>
-      <Route path='/main' render={() => <Main/>}></Route>
+      <Route exact path='/main' component={Main}/>
       <Route path='/news' component={News}/>
       <Route path='/personal_information' component={Personal_information}/>
       <Route path='/general_information' component={General_information}/>

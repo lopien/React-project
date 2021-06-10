@@ -84,7 +84,7 @@
   text-align: center;
   width: 100%;
   font-size: 18px;
-  margin-left: 50px;
+  margin-left: 75px;
 }
 
 .main-task-add,
@@ -244,7 +244,7 @@
 }
 
 .container {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 100%;
   margin-left: -20px;
   z-index: 1;
@@ -316,7 +316,6 @@
 .progressbar li.main-step-10:before,
 .progressbar li.main-step-12:before {
   margin: 0 auto -33px auto;
-
 }
 
 .progressbar li.main-step-14:before {
