@@ -120,22 +120,18 @@ const Main = () => {
       <div className="main-steps">
         <div className="container">
           <ul className="progressbar">
-            <li className="main-step-1 active">
-              <span>Поступление</span>
-              </li>
-            <li className="main-step-2 active">
-              <span>Зимняя сессия</span>
-              </li>
+            <li className="main-step-1 active">Поступление</li>
+            <li className="main-step-2 active">Зимняя сессия</li>
             <li className="main-step-3 active">Летняя сессия</li>
             <li className="main-step-4 active">2 курс</li>
             <li className="main-step-5 active">Зимняя сессия</li>
-            <li className="main-step-6 active">Зимняя сессия</li>
+            <li className="main-step-6 active">Летняя сессия</li>
             <li className="main-step-7 active">3 курс</li>
             <li className="main-step-8 active">Зимняя сессия</li>
-            <li className="main-step-9 active">Зимняя сессия</li>
+            <li className="main-step-9 active">Летняя сессия</li>
             <li className="main-step-10 active">4 курс</li>
             <li className="main-step-11 active">Зимняя сессия</li>
-            <li className="main-step-12 active">Зимняя сессия</li>
+            <li className="main-step-12 active">Летняя сессия</li>
             <li className="main-step-13 active">Преддипломная<br/>практика</li>
             <li className="main-step-14 active">Гос Экзамены</li>
             <li className="main-step-15">Защита диплома</li>
