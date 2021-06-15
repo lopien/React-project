@@ -51,6 +51,7 @@
 
 .messages-message {
   display: flex;
+  flex-grow: 1;
   flex-direction: row;
   align-items: flex-end;
   border-radius: 20px;
@@ -60,7 +61,6 @@
   width: 700px;
   height: 70vh;
   min-width: 300px;
-  max-width: 600px;
   background-color: #E0DCDC;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
