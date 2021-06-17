@@ -35,7 +35,7 @@ const Messages = () => {
                   <small className="message-time">12:33</small>
                 </div>
                 <div className="message-user-dialog">
-                  fsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  Тестовое сообщение 1
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Messages = () => {
                   <small className="message-time">12:33</small>
                 </div>
                 <div className="message-user-dialog">
-                  fsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+                  Тестовое сообщение 2
                 </div>
               </div>
             </div>
