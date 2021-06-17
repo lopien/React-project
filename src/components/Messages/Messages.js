@@ -32,7 +32,7 @@ const Messages = () => {
               <div className="messages-dialog-column">
                 <div className="message-user-name">
                   <p>Хафизова Эльвира</p>
-                  <small>12:33</small>
+                  <small className="message-time">12:33</small>
                 </div>
                 <div className="message-user-dialog">
                   fsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
@@ -47,7 +47,7 @@ const Messages = () => {
               <div className="messages-dialog-column">
                 <div className="message-user-name">
                   <p>Хафизова Эльвира</p>
-                  <small>12:33</small>
+                  <small className="message-time">12:33</small>
                 </div>
                 <div className="message-user-dialog">
                   fsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfsdvgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv

@@ -12,7 +12,7 @@ function SendMessage() {
           <div class="messages-dialog-column">
             <div class="message-user-name">
               <p>Хафизова Эльвира</p>
-              <small> ${new Date().toLocaleTimeString()}</small>
+              <small class="message-time">${new Date().getHours() + ':' + new Date().getMinutes()}</small>
             </div>
             <div class="message-user-dialog">
               ${input.value}
@@ -40,7 +40,7 @@ function keySend(e){
             <div class="messages-dialog-column">
               <div class="message-user-name">
                 <p>Хафизова Эльвира</p>
-                <small> ${new Date().toLocaleTimeString()}</small>
+                <small class="message-time">${new Date().getHours() + ':' + new Date().getMinutes()}</small>
               </div>
               <div class="message-user-dialog">
                 ${input.value}
