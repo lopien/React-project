@@ -21,16 +21,16 @@ class App extends React.Component{
     <BrowserRouter>
       <Route exact path='/' component={Index}/>
       <Route exact path='/main' component={Main}/>
-      <Route path='/news' component={News}/>
-      <Route path='/personal_information' component={Personal_information}/>
-      <Route path='/general_information' component={General_information}/>
-      <Route path='/plan' component={Plan}/>
-      <Route path='/grants' component={Grants}/>
-      <Route path='/rating' component={Rating}/>
-      <Route path='/schedule' component={Schedule}/>
-      <Route path='/appraisals' component={Appraisals}/>
-      <Route path='/questioning' component={Questioning}/>
-      <Route path='/messages' component={Messages}/>
+      <Route exact path='/news' component={News}/>
+      <Route exact path='/personal_information' component={Personal_information}/>
+      <Route exact path='/general_information' component={General_information}/>
+      <Route exact path='/plan' component={Plan}/>
+      <Route exact path='/grants' component={Grants}/>
+      <Route exact path='/rating' component={Rating}/>
+      <Route exact path='/schedule' component={Schedule}/>
+      <Route exact path='/appraisals' component={Appraisals}/>
+      <Route exact path='/questioning' component={Questioning}/>
+      <Route exact path='/messages' component={Messages}/>
     </BrowserRouter>
     );
   }
