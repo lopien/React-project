@@ -11,7 +11,7 @@ const Personal_information = () => {
       <div className="personal_information">
         <div className="personal_information-info">
           <table>
-            <caption><strong>Общиие сведения</strong></caption>
+            <caption><strong>Общие сведения</strong></caption>
             <tbody>
               <tr>
                 <th className="th">ФИО</th>

@@ -9,6 +9,19 @@ const Plan = () => {
       <Menu/>
       <Header/>
       <div className="plan">
+
+        <div className="semesters">
+          <span className="semesters_title">Семестры:</span>
+          <a className="semester" href="/"><img src="img/numbers/1.svg" alt=""/></a>
+          <a className="semester" href="/"><img src="img/numbers/2.svg" alt=""/></a>
+          <a className="semester" href="/"><img src="img/numbers/3.svg" alt=""/></a>
+          <a className="semester" href="/"><img src="img/numbers/4.svg" alt=""/></a>
+          <a className="semester" href="/"><img src="img/numbers/5.svg" alt=""/></a>
+          <a className="semester" href="/"><img src="img/numbers/6.svg" alt=""/></a>
+          <a className="semester" href="/"><img src="img/numbers/7.svg" alt=""/></a>
+          <a className="semester" href="/"><img src="img/numbers/8.svg" alt=""/></a>
+        </div>
+
         <div className="plan-info">
           <table>
             <caption><strong>Учебный план за 8 семестр</strong></caption>
@@ -33,7 +46,7 @@ const Plan = () => {
               </tr>
               <tr>
                 <td className="td">Б1.В</td>
-                <td className="td">Зач</td>
+                <td className="td">Экз</td>
                 <td className="td">Инструментальные средства разработки автоматизированных систем</td>
                 <td className="td">108/60</td>
                 <td className="td">Открыть</td>
@@ -42,7 +55,7 @@ const Plan = () => {
               </tr>
               <tr>
                 <td className="td">Б1.В</td>
-                <td className="td">Зач</td>
+                <td className="td"> </td>
                 <td className="td">Методы и модели теории графов и сетевого моделирования</td>
                 <td className="td"> </td>
                 <td className="td"> </td>
@@ -78,7 +91,7 @@ const Plan = () => {
               </tr>
               <tr>
                 <td className="td">Б1.В</td>
-                <td className="td">Зач</td>
+                <td className="td">Экз</td>
                 <td className="td">3D анимация</td>
                 <td className="td">108/60</td>
                 <td className="td">Открыть</td>
@@ -87,7 +100,7 @@ const Plan = () => {
               </tr>
               <tr>
                 <td className="td">Б1.В</td>
-                <td className="td">Зач</td>
+                <td className="td">Экз</td>
                 <td className="td">Философия</td>
                 <td className="td">72/40</td>
                 <td className="td">Открыть</td>
@@ -114,7 +127,7 @@ const Plan = () => {
               </tr>
               <tr>
                 <td className="td">Б1.В</td>
-                <td className="td">Зач</td>
+                <td className="td">Экз</td>
                 <td className="td">Методы и средства проектирования информационных систем и технологий	</td>
                 <td className="td">108/60</td>
                 <td className="td">Открыть</td>
@@ -132,7 +145,7 @@ const Plan = () => {
               </tr>
               <tr>
                 <td className="td">Б1.В</td>
-                <td className="td">Зач</td>
+                <td className="td">ЭВКР</td>
                 <td className="td">Выпускная квалификационная работа</td>
                 <td className="td">216/</td>
                 <td className="td">Открыть</td>
@@ -141,7 +154,7 @@ const Plan = () => {
               </tr>
               <tr>
                 <td className="td">Б1.В</td>
-                <td className="td">Зач</td>
+                <td className="td">ГЭК</td>
                 <td className="td">Государственный экзамен</td>
                 <td className="td">108/</td>
                 <td className="td">Открыть</td>
